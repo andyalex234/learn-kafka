@@ -6,6 +6,10 @@ kafka simple producer + consumer example using kafkajs library
 ```Bash
 git clone <this-repo>
 cd learn-kafka
+npm install
+#or
+yarn
+#run kafka using docker
 docker-compose up -d
 docker ps #to see all running containers
 ```
