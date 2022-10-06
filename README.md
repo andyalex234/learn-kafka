@@ -4,7 +4,7 @@ kafka simple producer + consumer example using kafkajs library
 ## installation
 
 ```Bash
-git clone <this-repo>
+git clone https://github.com/andyalex234/learn-kafka.git
 cd learn-kafka
 npm install
 #or
@@ -13,7 +13,7 @@ yarn
 docker-compose up -d
 docker ps #to see all running containers
 ```
-## Get started
+## Getting started
 The way the partions designed is based on the alphabet of the argument you provided when you create your message in the Users topics.
 
 There are two files you can interact with `consumer.js` and `producer.js` to run and see the result you can use this example commands:
